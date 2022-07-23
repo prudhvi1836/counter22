@@ -21,6 +21,7 @@ function App() {
   }
   return (
     <div>
+      <h3>Counter App</h3>
     <Button onClickHandler={startFunction} btnText="start"/>
     <p>{currState}</p>
     <Button onClickHandler={stopFunction} btnText="Stop"/>
